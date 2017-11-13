@@ -12,6 +12,7 @@
 		C361C5051FB9B9F60002FE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C361C5031FB9B9F60002FE72 /* Main.storyboard */; };
 		C361C5071FB9B9F60002FE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C361C5061FB9B9F60002FE72 /* Assets.xcassets */; };
 		C361C50A1FB9B9F60002FE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C361C5081FB9B9F60002FE72 /* LaunchScreen.storyboard */; };
+		C361C5121FB9C22D0002FE72 /* Get_Your_Shit_Together.wav in Resources */ = {isa = PBXBuildFile; fileRef = C361C5111FB9C22D0002FE72 /* Get_Your_Shit_Together.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		C361C5061FB9B9F60002FE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C361C5091FB9B9F60002FE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C361C50B1FB9B9F60002FE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C361C5111FB9C22D0002FE72 /* Get_Your_Shit_Together.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Get_Your_Shit_Together.wav; path = ../../../../Downloads/Get_Your_Shit_Together.wav; sourceTree = "<group>"; };
+		C361C5151FB9C32D0002FE72 /* Get_Your_Shit_Together.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Get_Your_Shit_Together.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		C361C4F31FB9B9F60002FE72 = {
 			isa = PBXGroup;
 			children = (
+				C361C5111FB9C22D0002FE72 /* Get_Your_Shit_Together.wav */,
 				C361C4FE1FB9B9F60002FE72 /* MotivationApp */,
 				C361C4FD1FB9B9F60002FE72 /* Products */,
 			);
@@ -60,8 +64,17 @@
 				C361C5061FB9B9F60002FE72 /* Assets.xcassets */,
 				C361C5081FB9B9F60002FE72 /* LaunchScreen.storyboard */,
 				C361C50B1FB9B9F60002FE72 /* Info.plist */,
+				C361C5131FB9C2410002FE72 /* Supportin Files */,
 			);
 			path = MotivationApp;
+			sourceTree = "<group>";
+		};
+		C361C5131FB9C2410002FE72 /* Supportin Files */ = {
+			isa = PBXGroup;
+			children = (
+				C361C5151FB9C32D0002FE72 /* Get_Your_Shit_Together.wav */,
+			);
+			path = "Supportin Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C361C5121FB9C22D0002FE72 /* Get_Your_Shit_Together.wav in Resources */,
 				C361C50A1FB9B9F60002FE72 /* LaunchScreen.storyboard in Resources */,
 				C361C5071FB9B9F60002FE72 /* Assets.xcassets in Resources */,
 				C361C5051FB9B9F60002FE72 /* Main.storyboard in Resources */,
@@ -275,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK4MDJM4U4;
 				INFOPLIST_FILE = MotivationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MotivationApp;
@@ -289,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK4MDJM4U4;
 				INFOPLIST_FILE = MotivationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MotivationApp;
